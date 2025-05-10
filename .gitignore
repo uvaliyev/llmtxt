@@ -1,0 +1,20 @@
+# Generated documentation files
+*.txt
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Input directory examples
+/payloaddocs/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
