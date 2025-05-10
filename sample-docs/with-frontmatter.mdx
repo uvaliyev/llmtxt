@@ -1,0 +1,26 @@
+---
+title: Document With Frontmatter
+description: A sample file showing frontmatter that can be stripped
+date: 2023-05-10
+tags: [example, documentation, test]
+---
+
+# Document With Frontmatter
+
+This document demonstrates frontmatter that llmtxt can strip when using the `-f` option.
+
+## What is Frontmatter?
+
+Frontmatter is metadata at the beginning of a document enclosed by `---` markers.
+It's commonly used in static site generators and documentation systems.
+
+## HTML Example
+
+<div className="example">
+  <h3>This is an HTML block</h3>
+  <p>The clean option can remove these tags.</p>
+</div>
+
+## Additional Info
+
+When using llmtxt, this file's frontmatter will be removed, and HTML tags can be stripped with the `-c` option. 
